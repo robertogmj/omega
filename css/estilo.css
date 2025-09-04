@@ -1,0 +1,126 @@
+/* CSS Document */
+body {
+background:url(../image/bg.gif) repeat;
+font:"Times New Roman", Times, serif;
+font-size:12px;
+}
+
+#conteudobase {
+background:url(../image/bgtopofull.jpg) no-repeat bottom center #FFFFFF;
+width:920px;
+margin:0 auto;
+padding:5px;
+}
+
+#topo {
+width:920px;
+height:110px;
+border-bottom:3px #003366 double;
+}
+
+#logotopo {
+width:270px;
+height:100px;
+background:url(../image/logoomega.png) no-repeat;
+float:left;
+}
+
+#menutopo {
+width:270px;
+height:109px;
+float:right;
+background:#1F487C;
+opacity:0.30;
+}
+
+/***Menu Topo***/
+
+ul#menu {
+list-style-type:none;
+width:270px;
+height:109px;
+padding:0;
+margin:0;
+}
+
+ul#menu a{
+list-style-type:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight:bold;
+color:#fff;
+text-align:center;
+text-decoration:none;
+display:block;
+line-height:36px;
+border-bottom:1px solid #FFFFFF;
+}
+
+ul#menu li a:hover{
+background:#000000;
+}
+/***Final Menu Topo***/
+
+#conteudo {
+width:900px;
+height:610px;
+margin:0 auto;
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+}
+
+#conteudo-img {
+width:445px;
+height:350px;
+float:right;
+}
+
+#conteudo-texto {
+width:370px;
+float:left;
+font-family:"Times New Roman", Times, serif;
+font-size:18px;
+color:#1F487C;
+text-align:justify;
+overflow:auto;
+padding-top:10px;
+padding-bottom:5px;
+padding-left:80px;
+}
+
+#emailindex {
+width:140px;
+height:35px;
+background:url(../image/bgemail.jpg) no-repeat;
+float:right;
+margin-right:120px;
+margin-top:10px;
+padding-top:15px;
+padding-left:60px;
+}
+
+#emailindex a{
+font:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#003366;
+font-weight:bold;
+text-decoration:none;
+}
+
+#emailindex a:hover{
+color:#990000;
+font-weight:bold;
+text-decoration:none;
+}
+
+#rodape {
+width:920px;
+height:30px;
+border-top:3px #003366 double;
+padding-top:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#1F487C;
+text-align:center;
+}
